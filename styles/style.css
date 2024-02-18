@@ -30,7 +30,26 @@ html {
 
 body {
   background: var(--main-color);
-  height: 200vh;
+}
+
+section {
+  padding: 3.5rem 7%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 2rem 3.75rem;
+  border-radius: 30rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--main-color);
 }
 
 .header {
@@ -53,20 +72,47 @@ body {
 
 .header .navbar a {
   margin: 0 1rem;
-  font-size:1.6rem ;
+  font-size: 1.6rem;
   color: var(--black-color);
   border-bottom: 0.1rem solid transparent;
 }
 
 .header .navbar .active,
-.header .navbar a:hover{
+.header .navbar a:hover {
   border-color: var(--main-color);
   padding-bottom: 0.5rem;
 }
 
-.header .buttons button{
+.header .buttons button {
   cursor: pointer;
   font-size: 2.5rem;
   margin-left: 2rem;
   background-color: transparent;
+}
+
+.home {
+  min-height: 100vh;
+  background: url(../images/home.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -14.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.home .content {
+  max-width: 60rem;
+}
+
+.home .content h3 {
+  font-size: 6rem;
+  color: var(--white-color);
+}
+
+.home .content p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #ccc;
 }
