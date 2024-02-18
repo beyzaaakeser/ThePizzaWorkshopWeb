@@ -4,7 +4,7 @@
   --main-color: #e84242;
   --black-color: #0e0e0e;
   --border-color: 0.1rem solid rgba(255, 255, 255, 0.4);
-  --white-color: #ffffff;
+  --white-color: #fff;
   --box-shadow-color: rgba(0, 0, 0, 0.75);
 }
 
@@ -50,6 +50,19 @@ section {
 
 .btn:hover {
   background-color: var(--main-color);
+}
+
+.heading {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-bottom: 3.5rem;
+  border-bottom: 0.1rem solid var(--white-color);
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: var(--black-color);
 }
 
 .header {
@@ -115,4 +128,48 @@ section {
   line-height: 1.8;
   padding: 1rem 0;
   color: #ccc;
+}
+
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.menu .box-container .box {
+  padding: 3rem;
+  background-color: var(--white-color);
+  border-radius: 3rem;
+  background-color: var(--white-color);
+  min-height: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.menu .box-container .box img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu .box-container .box .menu-category {
+  font-size: 1.2rem;
+}
+
+.menu .box-container .box h3 {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+.menu .box-container .box .price {
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.menu .box-container .box .price span {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 0.5rem 0;
+  text-decoration: line-through;
 }
