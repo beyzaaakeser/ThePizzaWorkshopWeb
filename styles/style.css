@@ -361,8 +361,73 @@ a {
   color: var(--main-color);
 }
 
-
-.review .box-container .box .stars i{
+.review .box-container .box .stars i {
   color: gold;
   font-size: 1.5rem;
+}
+
+.contact .row {
+  display: flex;
+  background-color: var(--black-color);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: var(--white-color);
+  font-weight: 400;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  border: var(--border-color);
+}
+
+.contact .row form .inputBox i {
+  color: var(--white-color);
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  text-transform: none;
+  color: var(--white-color);
+  background: none;
+}
+
+.contact .row form .sbt{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 2rem 3.75rem;
+  border-radius: 30rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: var(--light-white-color);
+  color: var(--black-color);
+}
+
+.contact .row form .sbt:hover{
+  background-color: var(--main-color);
+  color: var(--white-color);
+  transition: .5s;
 }
