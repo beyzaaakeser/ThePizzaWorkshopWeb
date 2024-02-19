@@ -8,7 +8,6 @@
   --light-white-color: #ccc;
   --light-grey-color: rgb(148, 148, 148);
   --box-shadow-color: rgba(0, 0, 0, 0.75);
-
 }
 
 * {
@@ -72,6 +71,14 @@ a {
 
 .btn:hover {
   background-color: var(--main-color);
+}
+
+.search-input {
+  font-size: 1.6rem;
+  color: var(--black-color);
+  padding: 1rem;
+  text-transform: none;
+  border-radius: 3rem;
 }
 
 .heading {
@@ -330,6 +337,25 @@ a {
   line-height: 1.8rem;
 }
 
+.about .content .sbt {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 2rem 3.75rem;
+  border-radius: 30rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: 0.5s;
+}
+
+.about .content .sbt:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+  transition: 0.5s;
+}
+
 .review .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -483,4 +509,78 @@ a {
   line-height: 1.8;
   color: var(--light-grey-color);
   padding: 1rem 0;
+}
+
+.footer {
+  background-color: var(--black-color);
+  text-align: center;
+}
+
+.footer .search {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .search .search-input {
+  width: 30rem;
+}
+
+.footer .search .btn-primary {
+  background-color: var(--main-color);
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+}
+
+.footer .share {
+  padding: 2rem 0;
+}
+
+.footer .share a {
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  color: var(--white-color);
+  font-size: 2rem;
+  border: var(--border-color);
+  border-radius: 50%;
+  margin: 0.3rem;
+}
+
+.footer .share a:hover {
+  background-color: var(--main-color);
+}
+
+.footer .links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer .links a {
+  background-color: var(--main-color);
+  padding: 0.7rem 2rem;
+  color: var(--white-color);
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: var(--border-color);
+}
+
+.footer .links a:hover {
+  background-color: var(--black-color);
+  opacity: 0.7;
+  color: var(--main-color);
+  font-weight: 900;
+}
+
+.footer .credit {
+  font-size: 2rem;
+  color: var(--white-color);
+  font-weight: 300;
+  padding-top: 1.5rem;
+}
+
+.footer .credit span {
+  color: var(--main-color);
+  font-style: italic;
 }
