@@ -316,14 +316,53 @@ a {
   flex: 1 1 45rem;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
   font-size: 3rem;
   color: var(--white-color);
 }
 
-.about .row .content p{
+.about .row .content p {
   font-size: 1.6rem;
   color: var(--light-white-color);
   padding: 1rem 0;
   line-height: 1.8rem;
+}
+
+.review .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.review .box-container .box {
+  border: var(--border-color);
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: var(--white-color);
+  border-radius: 3rem;
+}
+
+.review .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 2rem 0;
+}
+
+.review .box-container .box .user {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review .box-container .box h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+
+.review .box-container .box .stars i{
+  color: gold;
+  font-size: 1.5rem;
 }
