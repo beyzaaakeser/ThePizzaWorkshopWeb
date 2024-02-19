@@ -28,6 +28,20 @@ html {
   scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: var(--white-color);
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 3rem;
+  background-color: var(--black-color);
+}
+
+html::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
 body {
   background: var(--main-color);
 }
