@@ -13,4 +13,4 @@ My restaurant website has a modern and responsive design. It offers a perfect ex
 
 # GIF
 
-![PizzaWorkShop](images/ThePizzaWorkshop.gif)
+![PizzaWorkShop](images/ThePızzaWorkshop.gif)
