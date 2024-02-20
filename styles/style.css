@@ -732,3 +732,13 @@ a {
     display: inline-block;
   }
 }
+
+@media (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+}
