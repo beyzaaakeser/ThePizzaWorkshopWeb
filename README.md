@@ -8,11 +8,10 @@ My restaurant website has a modern and responsive design. It offers a perfect ex
 - CSS3
 - JavaScript
 
-<h3> Visit My Pizza Workshop Website: </h3>
+<h2> Visit My Pizza Workshop Website: </h2>
 
 - https://thepizzaworkshop.netlify.app/
 
 
-# GIF
 
 ![PizzaWorkShop](images/ThePızzaWorkshop.gif)
