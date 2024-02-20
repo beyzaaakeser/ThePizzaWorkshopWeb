@@ -12,6 +12,6 @@ My restaurant website has a modern and responsive design. It offers a perfect ex
 
 - https://thepizzaworkshop.netlify.app/
 
-<hr>
+<h4></h4>
 
 ![PizzaWorkShop](images/ThePızzaWorkshop.gif)
