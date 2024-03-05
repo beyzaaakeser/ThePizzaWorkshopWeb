@@ -14,4 +14,4 @@ My restaurant website has a modern and responsive design. It offers a perfect ex
 
 <h4>GIF</h4>
 
-![PizzaWorkShop](images/ThePızzaWorkshop.gif)
+![PizzaWorkShop](images/ThePizzaWorkshop.gif)
